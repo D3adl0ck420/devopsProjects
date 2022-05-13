@@ -1,0 +1,46 @@
+body{
+  padding: none;
+  background-size: cover;
+  background-image: url(Assets/BGLN.jpg);
+  background-repeat: no-repeat;
+}
+.Rock {
+  position: absolute;
+  color: white;
+  font-family: 'Playfair Display', sans-serif;
+  padding: 3px;
+  background: transparent;
+  font-variant: small-caps;
+}
+.left {
+  position:absolute;
+  width: 50px;
+  height: 50px;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+
+  border-right:10px solid white;
+}
+.avatar{
+	width: 100px;
+	margin-left: calc(50% - 50px);
+	margin-top: -50px;
+}
+.LoginBox{
+	position: absolute;
+	width: 350px;
+	height: 400px;
+	left: 50%;
+	top: 50%;
+	background: #0c222b; 
+	transform: translate(-50%, -50%);
+}
+h1{
+	margin: 0; 
+	padding: 0 0 20px; 
+	text-align: center; 
+	color: white;
+	font-family: 'Playfair Display', sans-serif;
+	font-weight: 600;
+	font-variant: small-caps;
+}
